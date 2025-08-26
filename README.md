@@ -14,8 +14,7 @@ The website is designed to make Setswana-English translation **accessible, relia
 - **Framework:** [Next.js](https://nextjs.org/)  
 - **Database:** [MongoDB](https://www.mongodb.com/)  
 - **Storage:** [Cloudinary](https://cloudinary.com/) (for audio file storage)  
-- **APIs:**  
-  - [Google Text-to-Speech API](https://cloud.google.com/text-to-speech) → English word pronunciation  
+- **APIs:** [Google Text-to-Speech API](https://cloud.google.com/text-to-speech) → English word pronunciation  
 - **Authentication:** [Kinde Auth](https://kinde.com/)  
 - **Payments:** [Stripe](https://stripe.com/)  
 

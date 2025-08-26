@@ -1,0 +1,253 @@
+/*export interface DictionaryWord {
+  id: string;
+  word: string;
+  language: "en" | "tn";
+  translation: string;
+  definition: string;
+  pronunciation?: string;
+  audioUrl?: string;
+  partOfSpeech: string;
+  examples: string[];
+  starred?: boolean;
+}
+
+export const mockWords: DictionaryWord[] = [
+  {
+    id: "1",
+    word: "Amazing",
+    language: "en",
+    translation: "Makatsa",
+    definition: "Describes something that is spectacular",
+    pronunciation: "/əˈmeɪzɪŋ/",
+    partOfSpeech: "adjective",
+    examples: [
+      "Her eyes were amazing and beautiful in every sense of the word",
+    ],
+    starred: false,
+  },
+  {
+    id: "2",
+    word: "Apple",
+    language: "en",
+    translation: "Apole",
+    definition: "A type of fruit",
+    pronunciation: "/ˈæpəl/",
+    partOfSpeech: "noun",
+    examples: ["I ate an apple for breakfast", "The apple tree is blooming"],
+    starred: true,
+  },
+  {
+    id: "3",
+    word: "Bear",
+    language: "en",
+    translation: "Bere",
+    definition: "A type of animal",
+    pronunciation: "/bɛər/",
+    partOfSpeech: "noun",
+    examples: ["The bear lives in the forest", "Bears hibernate in winter"],
+    starred: false,
+  },
+  {
+    id: "4",
+    word: "Cat",
+    language: "en",
+    translation: "Katse",
+    definition: "A small domestic animal",
+    pronunciation: "/kæt/",
+    partOfSpeech: "noun",
+    examples: [
+      "The cat is sleeping on the couch",
+      "My cat loves to play with yarn",
+    ],
+    starred: true,
+  },
+  {
+    id: "5",
+    word: "Dog",
+    language: "en",
+    translation: "Ntša",
+    definition: "A domestic animal, often kept as a pet",
+    pronunciation: "/dɔːɡ/",
+    partOfSpeech: "noun",
+    examples: ["The dog is barking loudly", "Dogs are loyal companions"],
+    starred: false,
+  },
+  {
+    id: "6",
+    word: "Elephant",
+    language: "en",
+    translation: "Tlou",
+    definition: "A large African or Asian mammal",
+    pronunciation: "/ˈɛlɪfənt/",
+    partOfSpeech: "noun",
+    examples: [
+      "The elephant has large ears",
+      "Elephants are intelligent animals",
+    ],
+    starred: false,
+  },
+  {
+    id: "7",
+    word: "Fish",
+    language: "en",
+    translation: "Tlhapi",
+    definition: "An aquatic animal",
+    pronunciation: "/fɪʃ/",
+    partOfSpeech: "noun",
+    examples: ["The fish swims in the river", "We caught many fish today"],
+    starred: true,
+  },
+  {
+    id: "8",
+    word: "Good",
+    language: "en",
+    translation: "Botoka",
+    definition: "Having the right or desired qualities",
+    pronunciation: "/ɡʊd/",
+    partOfSpeech: "adjective",
+    examples: ["This is a good book", "She is a good teacher"],
+    starred: false,
+  },
+  {
+    id: "9",
+    word: "House",
+    language: "en",
+    translation: "Ntlo",
+    definition: "A building for human habitation",
+    pronunciation: "/haʊs/",
+    partOfSpeech: "noun",
+    examples: [
+      "Their house is very beautiful",
+      "We bought a new house last year",
+    ],
+    starred: false,
+  },
+  {
+    id: "10",
+    word: "Makatsa",
+    language: "tn",
+    translation: "Amazing",
+    definition: "Go bontsha selo se se gakgamatsang",
+    pronunciation: "/ma-ka-tsa/",
+    partOfSpeech: "lesupi",
+    examples: ["Matlho a gagwe a ne a makatsa e bile a bontle"],
+    starred: true,
+  },
+  {
+    id: "11",
+    word: "Ntlo",
+    language: "tn",
+    translation: "House",
+    definition: "Lefelo la go nna",
+    pronunciation: "/n-tlo/",
+    partOfSpeech: "leina",
+    examples: [
+      "Ntlo ya bone e bontle thata",
+      "Re rekile ntlo e ntšha ngwaga o o fetileng",
+    ],
+    starred: false,
+  },
+  {
+    id: "12",
+    word: "Botoka",
+    language: "tn",
+    translation: "Good",
+    definition: "Se se nang le mekgwa e e siameng",
+    pronunciation: "/bo-to-ka/",
+    partOfSpeech: "lesupi",
+    examples: ["Eno ke buka e e botoka", "Ke morutabana yo o botoka"],
+    starred: true,
+  },
+];
+
+export const getWordsByLanguage = (language: "en" | "tn") => {
+  return mockWords.filter((word) => word.language === language);
+};
+
+export const getWordsByLetter = (letter: string, language: "en" | "tn") => {
+  return mockWords.filter(
+    (word) =>
+      word.language === language &&
+      word.word.toLowerCase().startsWith(letter.toLowerCase()),
+  );
+};
+
+export const searchWords = (query: string, language: "en" | "tn") => {
+  return mockWords.filter(
+    (word) =>
+      word.language === language &&
+      word.word.toLowerCase().includes(query.toLowerCase()),
+  );
+};
+
+export const getStarredWords = () => {
+  return mockWords.filter((word) => word.starred);
+};
+
+export const getWordById = (id: string) => {
+  return mockWords.find((word) => word.id === id);
+};
+
+export const alphabet = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+];*/
+
+// This file has been replaced by database-backed functions
+// The data has been migrated to MongoDB via Prisma
+// See src/lib/db-utils.ts for database functions
+// See scripts/seed-database.ts for the migration script
+
+export const alphabet = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+];
+

@@ -24,3 +24,4 @@ The website is designed to make Setswana-English translation accessible, reliabl
 - Premium subscription model
 - Dictionary page with visual interface
 - Cloudinary integration for audio storage
+- Responsive design for mobile and desktop
